@@ -3,6 +3,7 @@ def prime?(integer)
     return false
     
   counter = 2
+
   while counter < integer
     if integer % counter == 0
       return false
